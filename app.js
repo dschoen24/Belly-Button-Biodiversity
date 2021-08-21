@@ -33,8 +33,8 @@
             
             // create trace variable for the plot
             let trace = {type: 'bar',
-                x: sampleValues,
-                y: otu_ids,
+                x: sampleValues.map.tostring(),
+                y: otu_ids.map.tostring(),
                 text: labels,
                 orientation: "h",
             };
