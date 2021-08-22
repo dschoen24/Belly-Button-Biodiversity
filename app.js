@@ -60,6 +60,26 @@ function buildMetadata(selection) {
             console.log("reformatted");
             console.log(reformattedLabels);
 
+            let hovertext = sampleDict.otu_labels;
+            let barCharthovertext = hovertext.slice(0, 10).reverse();
+            console.log("otu_labels");
+            console.log(barCharthovertext);
+
+            // Create Bar Chart
+            let barChartTrace = {
+                type: "bar",
+                y: reformattedLabels,
+                x: barChartValues,
+                text: barCharthovertext,
+                orientation: "h"
+            };
+
+            let barChartData = [barChartTrace];
+
+            Plotly.newPlot("bar", barChartTrace);
+
+            //Create the Bubble Chart
+
             
 
 
