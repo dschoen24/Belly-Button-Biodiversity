@@ -1,6 +1,6 @@
 # Plotly-Challenge
 
-**#Belly Button Biodiversity
+**# Belly Button Biodiversity
 	(Using Plotly)**
 _________________________________________________________________________________
 
@@ -8,7 +8,7 @@ Objective:  Build an interactive dashboard to explore the cataloged microbes tha
 
 __________________________________________________________________________________
 
-##Steps taken to create the interactive dashboard
+## Steps taken to create the interactive dashboard
 
 
 1.	I used D3 library to read in the dataset to pull the information needed to create the dashboard
@@ -17,28 +17,40 @@ ________________________________________________________________________________
 
 - sample_values was created as the values for the bar chart
 
--out_ids was used as the labels for the bar chart
+- out_ids was used as the labels for the bar chart
 
--out_labels was used as the hovertext for the bar chart
+- out_labels was used as the hovertext for the bar chart
 
-3. A Bubble Chart was created that displays each sample
+![barchart](https://user-images.githubusercontent.com/82673788/130501914-36f833fe-428a-4a40-9fb4-e7e381b23f0a.PNG)
 
--out_ids was used as the x values
 
--sample_values was used for the y values
+3.	A Bubble Chart was created that displays each sample
 
--sample_values was used for the marker size
+- out_ids was used as the x values
 
--out_ids was used for the marker colors
+- sample_values was used for the y values
 
--out_labels was used for the text values 
+- sample_values was used for the marker size
 
-4. A sample metadata (i.e., an individual’s demographic information) is displayed
+- out_ids was used for the marker colors
 
-5. Each key-value pair from the metadata JSON is displayed on the page
+- out_labels was used for the text values 
 
-6. All the interactive plots are updated when a new sample is selected from the dropdown menu
+![bubble chart](https://user-images.githubusercontent.com/82673788/130501875-ef0bc731-9302-4424-ae54-81abd59e9403.PNG)
 
-7. A Gage Chart was created to plot weekly washing frequency for each selected individual
 
-	-The Gage Chart accounts for values ranging from 0 through 9 and is updated when a new sample is selected
+4. 	A sample metadata (i.e., an individual’s demographic information) is displayed
+
+![demographic info dropdown](https://user-images.githubusercontent.com/82673788/130502032-4b405ba6-48bd-4723-9c9a-72d820e9842d.PNG)
+
+
+5. 	Each key-value pair from the metadata JSON is displayed on the page
+
+6.	All the interactive plots are updated when a new sample is selected from the dropdown menu
+
+7.	A Gage Chart was created to plot weekly washing frequency for each selected individual
+
+	- The Gage Chart accounts for values ranging from 0 through 9 and is updated when a new sample is selected
+
+![gauge chart](https://user-images.githubusercontent.com/82673788/130501787-572441b1-9f3e-4711-ba86-4ac097077505.PNG)
+
