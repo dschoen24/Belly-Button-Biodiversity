@@ -17,6 +17,12 @@ https://github.com/dschoen24/Plotly-Challenge/index.html
 
 ________________________________________________________________________________
 
+You can see the interactive dashboard by clickling this link:
+
+https://dschoen24.github.io/Plotly-Challenge/
+
+_______________________________________________________________________________
+
 ## Steps taken to create the interactive dashboard
 
 
