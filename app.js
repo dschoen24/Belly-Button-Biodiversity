@@ -34,7 +34,7 @@ function optionChanged(newID){
 function buildPlots(id) {
     // Reading in the json dataset
     d3.json("data/samples.json").then(function(samplesData){
-        console.log(samplesData);
+        console.log("I am here",samplesData);
         // Filtering for the id selected
         let filtered = samplesData.samples.filter(sample => sample.id == id);
         let result = filtered[0];
