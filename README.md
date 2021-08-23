@@ -9,6 +9,13 @@ Objective:  Build an interactive dashboard to explore the cataloged microbes tha
 https://github.com/dschoen24/Plotly-Challenge/tree/main/data/sample.json
 __________________________________________________________________________________
 
+The code used to create the dashboard can be found here:
+
+https://github.com/dschoen24/Plotly-Challenge/app.js
+https://github.com/dschoen24/Plotly-Challenge/index.html
+
+________________________________________________________________________________
+
 ## Steps taken to create the interactive dashboard
 
 
