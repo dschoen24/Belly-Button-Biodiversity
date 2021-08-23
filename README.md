@@ -12,6 +12,7 @@ ________________________________________________________________________________
 The code used to create the dashboard can be found here:
 
 https://github.com/dschoen24/Plotly-Challenge/app.js
+
 https://github.com/dschoen24/Plotly-Challenge/index.html
 
 ________________________________________________________________________________
