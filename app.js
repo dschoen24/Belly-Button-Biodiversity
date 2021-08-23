@@ -103,9 +103,7 @@ function buildCharts(selection) {
 
                 Plotly.newPlot("bubble", bubbleChartData, layout);
 
-
             });
-        }
 
 // Define function that will run on page load
 function init() {
@@ -118,8 +116,11 @@ function init() {
                 console.log(parsedData);
 
                 //Add Dropdown option for each sample
-                let dropdownMenu.append("option").property("value", name).text(name);
-            }),
+                let dropdownMenu = d3.select("#selDataset");
+
+                parsedData.forEach((name) => {
+                    dropdownMenu.append("option").property("value", name).text(name);
+            })
 
             // Use sample to build metadata & initial plots
             buildMetadata(parsedData[0]);
@@ -138,6 +139,4 @@ function optionChanged(newSelection) {
 }
 
 //Initialize dashboard on page load
-init();
-
-
+init()})}
