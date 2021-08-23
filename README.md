@@ -6,6 +6,7 @@ ________________________________________________________________________________
 
 Objective:  Build an interactive dashboard to explore the cataloged microbes that colonize human navels from the Belly Button Biodiversity dataset which can be found here:
 
+
 __________________________________________________________________________________
 
 ## Steps taken to create the interactive dashboard
