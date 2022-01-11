@@ -1,5 +1,3 @@
-# Plotly-Challenge
-
 # Belly Button Biodiversity (Using Plotly)
 _________________________________________________________________________________
 
